@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ludo</title>
+</head>
+
+<body>
+
+    <svg width="1100" height="1100">
+        <rect class="board" width="1000" height="1000" />
+     
+
+
+        <!--        GREEN       HOME        BASE            -->
+        <rect class="board" x="50" y="50" width="360" height="360" />
+        <circle class="green" cx="230" cy="230" r="180" />
+        <circle class="white" cx="290" cy="170" r="40" />
+        <circle class="white" cx="170" cy="170" r="40" />
+        <circle class="white" cx="290" cy="290" r="40" />
+        <circle class="white" cx="170" cy="290" r="40" />
+        
+        
+        
+        <!-- Top vertical line left side -->
+        <rect class="white" x="410" y="50" width="60" height="60" />
+        <rect class="white" x="410" y="110" width="60" height="60" />
+        <rect class="white" x="410" y="170" width="60" height="60" />
+        <rect class="white" x="410" y="230" width="60" height="60" />
+        <rect class="white" x="410" y="290" width="60" height="60" />
+        <rect class="white" x="410" y="350" width="60" height="60" />
+        <!-- top vertical middle line -->
+        <rect class="white" x="470" y="50" width="60" height="60" />
+        <rect class="blue" x="470" y="110" width="60" height="60" />
+        <rect class="blue" x="470" y="170" width="60" height="60" />
+        <rect class="blue" x="470" y="230" width="60" height="60" />
+        <rect class="blue" x="470" y="290" width="60" height="60" />
+        <rect class="blue" x="470" y="350" width="60" height="60" />
+        <polygon class="blue" points="500,500 590,410 410,410" />
+        <!-- top vertical line right side -->
+        <rect class="white" x="530" y="50" width="60" height="60" />
+        <rect class="blue" x="530" y="110" width="60" height="60" />
+        <rect class="white" x="530" y="170" width="60" height="60" />
+        <rect class="white" x="530" y="230" width="60" height="60" />
+        <rect class="white" x="530" y="290" width="60" height="60" />
+        <rect class="white" x="530" y="350" width="60" height="60" />
+        
+
+
+        <!--        BLUE        HOME        BASE            -->
+        <rect class="board" x="590" y="50" width="360" height="360" />
+        <circle class="blue" cx="770" cy="230" r="180" />
+        <circle class="white" cx="830" cy="170" r="40" />
+        <circle class="white" cx="710" cy="170" r="40" />
+        <circle class="white" cx="830" cy="290" r="40" />
+        <circle class="white" cx="710" cy="290" r="40" />
+        
+        
+        
+        <!-- right horizontal top line -->
+        <rect class="white" x="890" y="410" width="60" height="60" />
+        <rect class="white" x="830" y="410" width="60" height="60" />
+        <rect class="white" x="770" y="410" width="60" height="60" />
+        <rect class="white" x="710" y="410" width="60" height="60" />
+        <rect class="white" x="650" y="410" width="60" height="60" />
+        <rect class="white" x="590" y="410" width="60" height="60" />
+        <!-- right horizontal middle line -->
+        <rect class="white" x="890" y="470" width="60" height="60" />
+        <rect class="red" x="830" y="470" width="60" height="60" />
+        <rect class="red" x="770" y="470" width="60" height="60" />
+        <rect class="red" x="710" y="470" width="60" height="60" />
+        <rect class="red" x="650" y="470" width="60" height="60" />
+        <rect class="red" x="590" y="470" width="60" height="60" />
+        <polygon class="red" points="500,500 590,590 590,410" />
+        <!-- right horizontal bottom line -->
+        <rect class="white" x="890" y="530" width="60" height="60" />
+        <rect class="red" x="830" y="530" width="60" height="60" />
+        <rect class="white" x="770" y="530" width="60" height="60" />
+        <rect class="white" x="710" y="530" width="60" height="60" />
+        <rect class="white" x="650" y="530" width="60" height="60" />
+        <rect class="white" x="590" y="530" width="60" height="60" />
+        
+
+
+        <!--        RED       HOME        BASE            -->
+        <rect class="board" x="590" y="590" width="360" height="360" />
+        <circle class="red" cx="770" cy="770" r="180" />
+        <circle class="white" cx="830" cy="710" r="40" />
+        <circle class="white" cx="710" cy="710" r="40" />
+        <circle class="white" cx="830" cy="830" r="40" />
+        <circle class="white" cx="710" cy="830" r="40" />
+   
+        
+
+        <!-- bottom right line -->
+        <rect class="white" x="530" y="590" width="60" height="60" />
+        <rect class="white" x="530" y="650" width="60" height="60" />
+        <rect class="white" x="530" y="710" width="60" height="60" />
+        <rect class="white" x="530" y="770" width="60" height="60" />
+        <rect class="white" x="530" y="830" width="60" height="60" />
+        <rect class="white" x="530" y="890" width="60" height="60" />
+        <!-- bottom middle line -->
+        <rect class="yellow" x="470" y="590" width="60" height="60" />
+        <rect class="yellow" x="470" y="650" width="60" height="60" />
+        <rect class="yellow" x="470" y="710" width="60" height="60" />
+        <rect class="yellow" x="470" y="770" width="60" height="60" />
+        <rect class="yellow" x="470" y="830" width="60" height="60" />
+        <rect class="white" x="470" y="890" width="60" height="60" />
+        <polygon class="yellow" points="500,500 410,590 590,590" />
+        <!-- bottom left line -->
+        <rect class="white" x="410" y="590" width="60" height="60" />
+        <rect class="white" x="410" y="650" width="60" height="60" />
+        <rect class="white" x="410" y="710" width="60" height="60" />
+        <rect class="white" x="410" y="770" width="60" height="60" />
+        <rect class="yellow" x="410" y="830" width="60" height="60" />
+        <rect class="white" x="410" y="890" width="60" height="60" />
+        
+        
+
+        <!--        YELLOW       HOME        BASE            -->
+        <rect class="board" x="50" y="590" width="360" height="360" />
+        <circle class="yellow" cx="230" cy="770" r="180" />
+        <circle class="white" cx="290" cy="710" r="40" />
+        <circle class="white" cx="170" cy="710" r="40" />
+        <circle class="white" cx="290" cy="830" r="40" />
+        <circle class="white" cx="170" cy="830" r="40" />
+        
+
+        
+        <!-- left top line -->
+        <rect class="white" x="50" y="410" width="60" height="60" />
+        <rect class="green" x="110" y="410" width="60" height="60" />
+        <rect class="white" x="170" y="410" width="60" height="60" />
+        <rect class="white" x="230" y="410" width="60" height="60" />
+        <rect class="white" x="290" y="410" width="60" height="60" />
+        <rect class="white" x="350" y="410" width="60" height="60" />
+        <!-- left middle line -->
+        <rect class="white" x="50" y="470" width="60" height="60" />
+        <rect class="green" x="110" y="470" width="60" height="60" />
+        <rect class="green" x="170" y="470" width="60" height="60" />
+        <rect class="green" x="230" y="470" width="60" height="60" />
+        <rect class="green" x="290" y="470" width="60" height="60" />
+        <rect class="green" x="350" y="470" width="60" height="60" />
+        <polygon class="green" points="500,500 410,590 410,410" />
+        <!-- left bottom line -->
+        <rect class="white" x="50" y="530" width="60" height="60" />
+        <rect class="white" x="110" y="530" width="60" height="60" />
+        <rect class="white" x="170" y="530" width="60" height="60" />
+        <rect class="white" x="230" y="530" width="60" height="60" />
+        <rect class="white" x="290" y="530" width="60" height="60" />
+        <rect class="white" x="350" y="530" width="60" height="60" />
+
+
+
+        <!-- GREEN PAWNS -->
+        <circle id="pawng" class="green" cx="290" cy="170" r="30" />
+        <circle id="pawng" class="green" cx="170" cy="170" r="30" />
+        <circle id="pawng" class="green" cx="290" cy="290" r="30" />
+        <circle id="pawng" class="green" cx="170" cy="290" r="30" />
+
+
+
+        <!-- BLUE PAWNS -->
+        <circle id="pawnb" class="blue" cx="830" cy="170" r="30" />
+        <circle id="pawnb" class="blue" cx="710" cy="170" r="30" />
+        <circle id="pawnb" class="blue" cx="830" cy="290" r="30" />
+        <circle id="pawnb" class="blue" cx="710" cy="290" r="30" />
+
+
+
+        <!-- RED PAWNS -->
+        <circle id="pawnr" class="red" cx="830" cy="710" r="30" />
+        <circle id="pawnr" class="red" cx="710" cy="710" r="30" />
+        <circle id="pawnr" class="red" cx="830" cy="830" r="30" />
+        <circle id="pawnr" class="red" cx="710" cy="830" r="30" />
+
+
+
+        <!-- YELLOW PAWNS -->
+        <circle id="pawny" class="yellow" cx="290" cy="710" r="30" />
+        <circle id="pawny" class="yellow" cx="170" cy="710" r="30" />
+        <circle id="pawny" class="yellow" cx="290" cy="830" r="30" />
+        <circle id="pawny" class="yellow" cx="170" cy="830" r="30" />
+
+
+
+    </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+}
+.board {
+    fill: rgb(250, 204, 118);
+    stroke: black;
+    stroke-width: 2px;
+}
+.white {
+    fill: white;
+    stroke: black;
+    stroke-width: 2px;
+}
+.blue {
+    fill: rgb(43, 173, 248);
+    stroke: black;
+    stroke-width: 2px;
+}
+.green {
+    fill: green;
+    stroke: black;
+}
+.red {
+    fill: red;
+    stroke: black;
+}
+.yellow {
+    fill: yellow;
+    stroke: black;
+}
